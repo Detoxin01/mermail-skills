@@ -1,6 +1,6 @@
 interface:
   display_name: "Mermail Inbox Safety Review"
-  short_description: "Review email for instructions aimed at your agent"
+  short_description: "Review email safety signals without changing the inbox"
   default_prompt: "Use $mermail-inbox-safety-review to inspect the selected Mermail messages and give an evidence-linked safety report without changing the inbox."
 dependencies:
   tools:
